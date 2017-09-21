@@ -10,11 +10,11 @@ public class Question421 {
         if (s.length() != 11){
             isSSN = false;
         }
-        if (!Character.isDigit(s.charAt(0)))
+        if (!Character.isDigit(s.charAt(0))) // JA: What about all the other characters?
             isSSN = false;
-        else if(s.charAt(2) != '_')
+        else if(s.charAt(2) != '_') // JA: This should be charAt(3)
             isSSN = false;
-        else if(s.charAt(5) != '_')
+        else if(s.charAt(5) != '_') // JA: This should be charAt(6)
             isSSN = false;
 
 
@@ -29,4 +29,5 @@ public class Question421 {
 
 }
 
-}
+// JA: It didn't compile becuase of this extra }
+//}
