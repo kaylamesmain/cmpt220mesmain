@@ -15,7 +15,7 @@ public class Question516 {
 			}
 			else i++;
 		}
-		//System.out.print(i + " "); // JA: Not needed
+		System.out.print(i + " ");
 	}
    		
 }

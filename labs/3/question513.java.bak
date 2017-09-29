@@ -8,7 +8,7 @@ public class question513 {
 		while (nCubed < 12000) { 
 			n++; 
 			nCubed= n*n*n; 
-		} // JA: You need to decrement n, since n*n*n is >= 12000
+		}
 		System.out.println("The largest integer is " + n);
 	}
 
