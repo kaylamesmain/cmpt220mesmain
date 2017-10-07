@@ -35,7 +35,7 @@ public class question619 {
 	
 	
 	public static void main(String[] args) {
-		area(1.0,1.0,1.0);
+		area(1.0,1.0,1.0); // JA: You were supposed to get this info from the user
 	}
 	
 }
