@@ -8,7 +8,7 @@ public class question715 {
 		for(int x = 0; x < 9; x++) {
 			for(int y = x+1; y < 10; y++) {
 				if(list[x] == list[y]) {
-					list[y] = 100;
+					list[y] = 100; // JA: Good try. This will not work if any of the numbers is > 100
 				}
 			}
 			if (list[x] == 100) {
@@ -35,5 +35,6 @@ public class question715 {
 			count += 1;
 		}
 		eliminateDuplicates(list);
+		// JA: You forgot to print the results
 	}
 }
