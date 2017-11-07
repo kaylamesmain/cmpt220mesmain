@@ -1,3 +1,4 @@
+// JA: Which is the class to test this?
 package lab8;
 
 import java.util.ArrayList;
